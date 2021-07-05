@@ -76,7 +76,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EnterWindow.xaml">
+    <Page Include="MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -94,8 +94,8 @@
     <Compile Include="ComDevice.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="EnterWindow.xaml.cs">
-      <DependentUpon>EnterWindow.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="TwoPortViewWindow.xaml.cs">
       <DependentUpon>TwoPortViewWindow.xaml</DependentUpon>

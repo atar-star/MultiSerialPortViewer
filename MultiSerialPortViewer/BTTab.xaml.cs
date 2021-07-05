@@ -21,13 +21,13 @@ namespace MultiSerialPortViewer {
     /// 
     public partial class BTTab : UserControl {
         private COMDevice Com;
-        private EnterWindow parent;
+        private MainWindow parent;
 
         public BTTab() {
             InitializeComponent();
         }
 
-        public BTTab(COMDevice com, EnterWindow parent) {
+        public BTTab(COMDevice com, MainWindow parent) {
             InitializeComponent();
             this.Com = com;
             this.parent = parent;

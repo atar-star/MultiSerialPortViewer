@@ -16,14 +16,14 @@ using System.IO.Ports;
 
 namespace MultiSerialPortViewer {
     /// <summary>
-    /// EnterWindow.xaml の相互作用ロジック
+    /// MainWindow.xaml の相互作用ロジック
     /// </summary>
     /// 
-    public partial class EnterWindow : Window {
+    public partial class MainWindow : Window {
         public ObservableCollection<COMDevice> comLists = new ObservableCollection<COMDevice>();
 
 
-        public EnterWindow() {
+        public MainWindow() {
             InitializeComponent();
         }
 
