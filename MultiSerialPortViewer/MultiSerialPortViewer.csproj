@@ -80,7 +80,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="TwoPortViewWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -97,8 +97,8 @@
     <Compile Include="EnterWindow.xaml.cs">
       <DependentUpon>EnterWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="TwoPortViewWindow.xaml.cs">
+      <DependentUpon>TwoPortViewWindow.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

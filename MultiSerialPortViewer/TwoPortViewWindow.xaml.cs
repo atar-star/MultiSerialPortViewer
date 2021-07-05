@@ -19,20 +19,16 @@ using System.IO.Ports;
 namespace MultiSerialPortViewer {
 
     /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
+    /// TwoPortViewWindow.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window {
+    public partial class TwoPortViewWindow : Window {
 
         COMDevice serialPort1;
         COMDevice serialPort2;
 
 
-        public MainWindow() {
+        public TwoPortViewWindow() {
             InitializeComponent();
-
-            var window = new EnterWindow();
-            window.Show();
-            this.Close();
         }
 
         private void UpdatePortsList() {
